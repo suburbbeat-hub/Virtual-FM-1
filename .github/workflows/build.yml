@@ -9,7 +9,7 @@ on:
 
 jobs:
   macos:
-    runs-on: macos-14
+    runs-on: macos-15
     env:
       HAS_SIGNING: ${{ secrets.MACOS_CERT_P12 != '' }}
       HAS_NOTARY: ${{ secrets.NOTARY_APPLE_ID != '' }}
